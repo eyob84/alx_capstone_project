@@ -1,9 +1,9 @@
 /* Style the form container */
 form {
-    width: 80%;
+    width: 70%;
     max-width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 35px;
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #f9f9f9;
@@ -24,7 +24,9 @@ textarea {
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 3px;
+    height: 15px; 
 }
+
 
 /* Style the submit button */
 button[type="submit"] {
@@ -34,6 +36,7 @@ button[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 button[type="submit"]:hover {
