@@ -1,0 +1,161 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* Style the project list container */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Style individual project cards */
+.project-card {
+    width: 30%; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Style project titles */
+.project-card h2 {
+    font-size: 18px;
+    margin-top: 0;
+    color: #007BFF;
+}
+
+/* Style project descriptions */
+.project-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style the "View Project" link */
+.project-card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.project-card a:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+/* Define CSS styles for the skills list */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+
+main{
+    height:70vh;
+    scroll-behavior: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+nav ul {
+    background-color: #333;
+    text-align: center;
+    list-style: none;
+    padding: 1rem 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+section {
+    padding: 2rem;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+
+section ul {
+    list-style: disc;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+    
+    section {
+        margin: 10px;
+    }
+}
+
+
+
+
