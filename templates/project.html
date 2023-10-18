@@ -5,16 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
 
 </head>
 <body>
-    <div>
-        <h2>{{project.title}}</h2>
-        <h3>{{project.description}}</h3>
-        <h4>{{project.id}}</h4>
-    </div>
-    <h1>{{project}}</h1>
+    {% include 'header.html' %}
+
+    <main>
+        <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">{{ project.title }}</h2>
+            <h2 class="experience-sub-title project-title">{{ project.description }}</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                
+              >
+              <a href="{{ project.link }}" target="_blank">Github</a>
+                
+              </button>
+              
+            </div>
+          </div>
+        
+        
+    </main>
+    
+    {% include 'footer.html' %}
+
 </body>
 </html>
 
 
+
+<style>
+    .single-project-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.single-project-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.single-project-card h3 {
+    font-size: 16px;
+    color: #666;
+}
+
+.single-project-card a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.single-project-card a:hover {
+    background-color: #0056b3;
+    
+}
+
+</style>

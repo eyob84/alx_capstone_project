@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='contact.css') }}" />
 
 </head>
@@ -13,26 +13,72 @@
     {%include 'header.html'%}
 
 
-    <section>
+
         <main>
-            <h2>Contact</h2>
-            <p>TELEPONE:0494984984980</p>
-            <!-- <h1>Contact Us</h1> -->
+
+            <section id="contact">
+                <p class="section__text__p1">Get in Touch</p>
+                <h1 class="title">Contact Me</h1>
+                <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                        <img
+                      src="{{ url_for('static', filename='assets/checkmark.png') }}"
+                      alt="Phone icon"
+                      class="icon contact-icon email-icon"
+                    />
+                    <p>TELEPONE:0494984984980</p>
+                    </div>
+                  <div class="contact-info-container">
+                    <img
+                      src="{{ url_for('static', filename='assets/email.png') }}"
+                      alt="Email icon"
+                      class="icon contact-icon email-icon"
+                    />
+                    <p><a href="mailto:eyobabebe28@gmail.com">eyobabebe28@gmail.com</a></p>
+                  </div>
+                  <div class="contact-info-container">
+                    <img
+                      src="{{ url_for('static', filename='assets/linkedin.png') }}"
+                      alt="LinkedIn icon"
+                      class="icon contact-icon"
+                    />
+                    <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+                  </div>
+                </div>
+              </section>
             <form method="POST" action="/contact">
                 <label for="name">Name:</label>
-                <input type="text" name="name" required><br><br>
+                <input type="text" name="name" ><br><br>
 
                 <label for="email">Email:</label>
-                <input type="email" name="email" required><br><br>
+                <input type="text" name="email"><br><br>
 
                 <label for="message">Message:</label>
-                <textarea name="message" rows="4" required></textarea><br><br>
-
-                <button type="submit">Submit</button>
+                <textarea name="message" rows="4" ></textarea><br><br>
+                    <div class="errors">
+                        {% if errors %}
+                        <ul class="error-list">
+                            {% for error in errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif%}
+                    </div>
+                    <div class="success">
+                        {% if success %}
+                        <ul class="error-list">
+                            {% for error in success %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif%}
+                    </div>
+                <button class="btn" type="submit">Submit</button>
             </form>
+
         </main>
 
-    </section>
+
 
     {% include 'footer.html' %}
 </body>

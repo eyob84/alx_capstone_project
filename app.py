@@ -17,24 +17,30 @@ app.config['MAIL_PASSWORD'] = "gymf mrus moxp mpxd"
     # server.login('eyobabebe28@email.com', 'gymf mrus moxp mpxd')  # Provide your email and password
 
 mail = Mail(app)
-
+import re  
+def is_valid_email(email):
+    email_pattern = r'^[\w\.-]+@[\w\.-]+$'
+    return re.match(email_pattern, email)
 
 n=1
 
 prjs = [
     {"id":1,
-    "description":"blah blah blah",
-    "title":"title 1"
+    "description":"alx responsive design project",
+    "title":"headphones",
+    "link":"https://www.github.com/eyob84/headphone"
     },
      {"id":2,
-    "description":"blah blah blah",
-    "title":"title 2"
+    "description":"alx html and css excercises",
+    "title":"alx_html_css",
+    "link":"https://github.com/eyob84/alx_html_css"
     }, {"id":3,
     "description":"blah blah blah",
-    "title":"title 3"
+    "title":"title 3",
+    "link":"https://github.com/eyob84/headphone"
     }
 ]
-sks=['sa','sadas']
+sks=[ {"title":"frontend","skills":['html','css','javascript']}, {"title":"backend","skills":['python','flask','sql','database']}]
 # number_template/<int:n>
 @app.route('/', strict_slashes=False,methods=['GET'])
 def home():
@@ -62,17 +68,28 @@ def contact():
         message = request.form.get('message')
 
         # Validate the form data
-        if not name or not email or not message:
-            return "All fields are required. Please go back and fill in all the fields."
+        errors = []
 
+        if not name:
+            errors.append("Name is required.")
+        if not email:
+            errors.append("Email is required.")
+        elif not is_valid_email(email):
+            errors.append("Invalid email format.")
+        if not message:
+            errors.append("Message is required.")
+
+        if errors:
+            return render_template('contact.html', errors=errors)
         # Send an email notification
         try:
             send_email(name, email, message)
-            return render_template('sent.html')
+            return render_template('contact.html', success=['success'])
+
 
         except Exception as e:
             print("failed")
-            render_template('failed.html')
+            return render_template('contact.html', errors=['failed',e])
 
 
         # return "Thank you for your message. We will get back to you soon."

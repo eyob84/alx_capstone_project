@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>MY Portfolio - EYOB</title>
-    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+
 </head>
 <body>
     {%include 'header.html'%}
 <main>
-    <p>klsdbfkjbjbjBjb</p>
+    <section id="profile">
+        <div class="section__pic-container">
+        <img src="{{ url_for('static', filename='assets/profile-pic.jpg') }}" alt="Eyob's profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Eyob Abebe</h1>
+          <p class="section__text__p2">Fullstalk Developer</p>
+          <div class="btn-container">
+            <button 
+              class="btn btn-color-2"
+             >
+            <a href="{{ url_for('static', filename='assets/resume.pdf') }}" onclick="window.open(this.href); return false;">Open Resume</a>
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="{{ url_for('static', filename='assets/linkedin.png') }}"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/in/eyob-bekele-772a46281/'"
+            />
+            <img
+              src="{{ url_for('static', filename='assets/github.png') }}"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/eyob84'"
+            />
+          </div>
+        </div>
+      </section>
 </main>
   
 

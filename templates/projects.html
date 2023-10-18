@@ -4,28 +4,56 @@
     <meta charset="UTF-8">
     <title>Projects</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
 
 </head>
 <body>
     {%include 'header.html'%}
     
 
-    <section>
         <main>
-            <h2>Projects</h2>
-            <!-- Project Cards go here -->
-            <div class="project-list">
-                {% for project in projects %}
-                <div class="project-card">
-                    <h2>{{ project.title }}</h2>
-                    <p>{{ project.description }}</p>
-                    <a href="/projects/{{ project.id }}">View Project</a>
+            <section id="projects">
+                <p class="section__text__p1">Browse My Recent</p>
+                <h1 class="title">Projects</h1>
+                <div class="experience-details-container">
+                  <div class="about-containers">
+                    {% for project in projects %}
+                    <div class="details-container color-container">
+                      <div class="article-container">
+                        <img
+                          src="https://source.unsplash.com/1600x900/?{{ project.title }}"
+                          alt="Project 1"
+                          class="project-img"
+                        />
+                      </div>
+                      <h2 class="experience-sub-title project-title">{{ project.title }}</h2>
+                      <h2 class="experience-sub-title project-title">{{ project.description }}</h2>
+                      <div class="btn-container">
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          
+                        >
+                        <a href="{{ project.link }}" target="_blank">Github</a>
+                          
+                        </button>
+                        <button
+                          class="btn btn-color-2 project-btn"
+                          onclick="location.href='#'"
+                        >
+                        <a href="/projects/{{ project.id }}">View Project</a>
+                          
+                        </button>
+                      </div>
+                    </div>
+                    {% endfor %}
+                  </div>
                 </div>
-                {% endfor %}
-            </div>
+               
+              </section>
+    
         </main>
-        
-    </section>
+       
+
 
     {% include 'footer.html' %}
 </body>

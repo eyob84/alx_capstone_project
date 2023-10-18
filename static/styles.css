@@ -1,13 +1,10 @@
-body,
-h1,
-h2,
-p,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-}
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -66,10 +63,10 @@ li {
 }
 
 main {
-    height: 70vh;
+    min-height: 70vh;
     scroll-behavior: auto;
 }
-
+/* 
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -177,4 +174,4 @@ footer {
     section {
         margin: 10px;
     }
-}
+} */
