@@ -26,17 +26,17 @@ n=1
 
 prjs = [
     {"id":1,
-    "description":"alx responsive design project",
-    "title":"headphones",
+    "description":"Alx responsive design project",
+    "title":"Headphones",
     "link":"https://www.github.com/eyob84/headphone"
     },
      {"id":2,
-    "description":"alx html and css excercises",
-    "title":"alx_html_css",
+    "description":"Alx html and css excercises",
+    "title":"alx html css",
     "link":"https://github.com/eyob84/alx_html_css"
     }, {"id":3,
-    "description":"blah blah blah",
-    "title":"title 3",
+    "description":"Personal Portfolio website",
+    "title":"Portfolio",
     "link":"https://github.com/eyob84/headphone"
     }
 ]

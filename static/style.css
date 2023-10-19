@@ -217,7 +217,10 @@ section {
   cursor: pointer;
   height: 2rem;
 }
-
+.icon-2 {
+  cursor: pointer;
+  height: 4rem;
+}
 /* BUTTONS */
 
 .btn-container {
@@ -301,7 +304,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  /* background: white; */
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
