@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 main {
-  min-height: 70vh;
+  /* min-height: 50vh; */
   scroll-behavior: auto;
 }
 
@@ -107,6 +107,7 @@ a:hover {
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  z-index: 3;
 }
 
 .menu-links a {
