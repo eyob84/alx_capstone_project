@@ -18,35 +18,30 @@
                 <div class="experience-details-container">
                     <div class="about-containers">
                       {% for skill in skills %}
-                      <div class="details-container">
-                          <h2 class="experience-sub-title">{{skill.title}}</h2>
-          
-                              <div class="article-container">
-                                  {% for s in skill.skills %}
-                                  <article>
-                                  <img
-                                      src="{{ url_for('static', filename='assets/checkmark.png') }}"
-                                      alt="Experience icon"
-                                      class="icon"
-                                  />
-                                  <div>
-                                      <h3>{{ s }}</h3>
-                                      <p>Intermediate</p>
-                                  </div>
-                                  </article>
-                              
-                              {% endfor %}
-                              </div>
-                      </div>
+                            <div class="details-container">
+                                <h2 class="experience-sub-title">{{skill.title}}</h2>
+                
+                                    <div class="article-container">
+                                            {% for s in skill.skills %}
+                                                <article>
+                                                <img
+                                                    src="{{ url_for('static', filename='assets/checkmark.png') }}"
+                                                    alt="Experience icon"
+                                                    class="icon"
+                                                />
+                                                <div>
+                                                    <h3>{{ s }}</h3>
+                                                    <p>Intermediate</p>
+                                                </div>
+                                                </article>
+                                    
+                                            {% endfor %}
+                                    </div>
+                            </div>
                       {% endfor %}
                   </div>
           </div>
-                <!-- <img
-                  src="./assets/arrow.png"
-                  alt="Arrow icon"
-                  class="icon arrow"
-                  onclick="location.href='./#projects'"
-                /> -->
+                
               </section>
            
     </main>

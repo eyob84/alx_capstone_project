@@ -57,21 +57,21 @@
                 <textarea name="message" rows="4" ></textarea><br><br>
                     <div class="errors">
                         {% if errors %}
-                        <ul class="error-list">
-                            {% for error in errors %}
-                                <li>{{ error }}</li>
-                            {% endfor %}
-                        </ul>
-                    {% endif%}
+                          <ul class="error-list">
+                              {% for error in errors %}
+                                  <li>{{ error }}</li>
+                              {% endfor %}
+                          </ul>
+                        {% endif%}
                     </div>
                     <div class="success">
                         {% if success %}
                         <ul class="error-list">
-                            {% for error in success %}
-                                <li>{{ error }}</li>
+                            {% for s in success %}
+                                <li>{{ s }}</li>
                             {% endfor %}
                         </ul>
-                    {% endif%}
+                        {% endif%}
                     </div>
                 <button class="btn" type="submit">Submit</button>
             </form>

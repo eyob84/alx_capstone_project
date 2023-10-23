@@ -14,9 +14,9 @@ app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = "eyobabebe28@gmail.com"
 
 app.config['MAIL_PASSWORD'] = "gymf mrus moxp mpxd"
-    # server.login('eyobabebe28@email.com', 'gymf mrus moxp mpxd')  # Provide your email and password
-
+    
 mail = Mail(app)
+
 import re  
 def is_valid_email(email):
     email_pattern = r'^[\w\.-]+@[\w\.-]+$'
@@ -44,11 +44,11 @@ sks=[ {"title":"frontend","skills":['html','css','javascript']}, {"title":"backe
 # number_template/<int:n>
 @app.route('/', strict_slashes=False,methods=['GET'])
 def home():
-    return render_template('index.html', number=n)
+    return render_template('index.html')
 
 @app.route('/about', strict_slashes=False,methods=['GET'])
 def about():
-    return render_template('about.html', number=n)
+    return render_template('about.html')
 @app.route('/projects', strict_slashes=False,methods=['GET'])
 def projects():
     return render_template('projects.html', projects=prjs)
@@ -99,9 +99,9 @@ def contact():
 def send_email(name, email, message):
 	msg_title = "contact us submission from portfolio"
 	sender = "noreply@app.com"
-	msg = Message(msg_title,sender=sender,recipients=["eyobabebe28@gmail.com"])
+	msg = Message(msg_title, sender=sender, recipients=["eyobabebe28@gmail.com"])
 	msg_body = f"This is the email {email}\n  name:{name}\n message:{message}"
-	msg.body = "test body"
+	# msg.body = "test body"
 	data = {
 		'app_name': "portfolio",
 		'title': msg_title,
