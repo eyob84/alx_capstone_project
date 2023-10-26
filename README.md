@@ -11,7 +11,7 @@ Contact Information: Find ways to get in touch with me, whether for collaboratio
 <h1>Technologies Used</h1>
 
 <h2>Frontend:</h2> HTML</br> CSS </br>JavaScript
-<h2>Backend:</h2> Python </br> Flask </br> Database
+<h2>Backend:</h2> Python </br> Flask 
 
 
 
@@ -30,8 +30,5 @@ Name: eyob abebe bekele </br>
 Email: eyobabebe28@gmail.com </br>
 GitHub: https://github.com/eyob84 </br>
 LinkedIn: https://linkedin.com/in/eyob-bekele-772a46281/
-
-
-
 
 Feel free to reach out via email, connect on LinkedIn, or visit my portfolio website for more information about my work and experience. Thank you for exploring my portfolio!
