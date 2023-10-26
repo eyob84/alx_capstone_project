@@ -29,7 +29,8 @@ Hosting: GitHub Pages
 
 
 
-<h1>Contact Information<h1></br>
+<h1>Contact Information<h1>
+
 Name: eyob abebe bekele </br>
 Email: eyobabebe28@gmail.com </br>
 GitHub: https://github.com/eyob84 </br>
