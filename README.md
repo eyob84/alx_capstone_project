@@ -13,6 +13,13 @@ Contact Information: Find ways to get in touch with me, whether for collaboratio
 <h2>Frontend:</h2> HTML</br> CSS </br>JavaScript
 <h2>Backend:</h2> Python </br> Flask 
 
+<h1>Future Enhancements</h1>
+
+1.Mobile App Integration</br>
+2.Incorporate interactive and dynamic features into the portfolio section.</br>
+3.Create an e-commerce section to sell digital products, courses, or merchandise.</br>
+4.User Feedback and Analytics</br>
+5.Enhance social media presence and integration.
 
 
 
