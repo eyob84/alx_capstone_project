@@ -15,8 +15,13 @@ Backend: Python, sql, flask, database
 Version Control: Git, GitHub
 Hosting: GitHub Pages
 
-Roadmap and Future Enhancements
-In the future, I plan to enhance my portfolio website with the following features:
+[flowchart](https://lucid.app/lucidchart/ca65c284-0af1-474a-8bc5-31db0de22813/edit?viewport_loc=-5%2C382%2C2585%2C1134%2C0_0&invitationId=inv_ee846e2e-39fe-469a-881d-c0282862f0e5)
+
+
+## Screenshots
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshots/screenshot2.png)
+![Screenshot 1](screenshots/screenshot3.png)
 
 
 
@@ -25,4 +30,8 @@ Name: eyob abebe bekele
 Email: eyobabebe28@gmail.com
 GitHub: https://github.com/eyob84
 LinkedIn: https://linkedin.com/in/eyob-bekele-772a46281/
+link to live demo: https://drive.google.com/file/d/1xiRmX4-Lxw-8CidptAvIEWnqzIsJk6jM/view?usp=sharing
+
+
+
 Feel free to reach out via email, connect on LinkedIn, or visit my portfolio website for more information about my work and experience. Thank you for exploring my portfolio!
