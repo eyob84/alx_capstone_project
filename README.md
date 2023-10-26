@@ -15,10 +15,13 @@ Backend: Python, sql, flask, database
 Version Control: Git, GitHub
 Hosting: GitHub Pages
 
-[flowchart](https://lucid.app/lucidchart/ca65c284-0af1-474a-8bc5-31db0de22813/edit?viewport_loc=-5%2C382%2C2585%2C1134%2C0_0&invitationId=inv_ee846e2e-39fe-469a-881d-c0282862f0e5)
 
 
-## Screenshots
+
+## Screenshots or demo
+[flow chart](https://lucid.app/lucidchart/ca65c284-0af1-474a-8bc5-31db0de22813/edit?viewport_loc=-5%2C382%2C2585%2C1134%2C0_0&invitationId=inv_ee846e2e-39fe-469a-881d-c0282862f0e5)
+[live demo](https://drive.google.com/file/d/1xiRmX4-Lxw-8CidptAvIEWnqzIsJk6jM/view?usp=sharing)
+
 ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 1](screenshots/screenshot2.png)
 ![Screenshot 1](screenshots/screenshot3.png)
@@ -26,11 +29,11 @@ Hosting: GitHub Pages
 
 
 Contact Information
-Name: eyob abebe bekele
-Email: eyobabebe28@gmail.com
-GitHub: https://github.com/eyob84
+Name: eyob abebe bekele </n>
+Email: eyobabebe28@gmail.com </n>
+GitHub: https://github.com/eyob84 </n>
 LinkedIn: https://linkedin.com/in/eyob-bekele-772a46281/
-link to live demo: https://drive.google.com/file/d/1xiRmX4-Lxw-8CidptAvIEWnqzIsJk6jM/view?usp=sharing
+
 
 
 
