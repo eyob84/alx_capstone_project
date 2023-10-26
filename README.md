@@ -9,7 +9,8 @@ Contact Information: Find ways to get in touch with me, whether for collaboratio
 Blog: Explore my blog, where I share insights, tutorials, and industry-related articles.
 This website allows users to learn about my skills, explore my past work, and get in touch for potential opportunities or collaborations.
 
-Technologies Used
+<h1>Technologies Used</h1>
+
 Frontend: HTML, CSS, JavaScript
 Backend: Python, sql, flask, database
 Version Control: Git, GitHub
@@ -18,7 +19,7 @@ Hosting: GitHub Pages
 
 
 
-## Screenshots or demo
+<h1>## Screenshots or demo </h1>
 [flow chart](https://lucid.app/lucidchart/ca65c284-0af1-474a-8bc5-31db0de22813/edit?viewport_loc=-5%2C382%2C2585%2C1134%2C0_0&invitationId=inv_ee846e2e-39fe-469a-881d-c0282862f0e5)
 [live demo](https://drive.google.com/file/d/1xiRmX4-Lxw-8CidptAvIEWnqzIsJk6jM/view?usp=sharing)
 
@@ -28,10 +29,10 @@ Hosting: GitHub Pages
 
 
 
-Contact Information
-Name: eyob abebe bekele </n>
-Email: eyobabebe28@gmail.com </n>
-GitHub: https://github.com/eyob84 </n>
+<h1>Contact Information<h1></br>
+Name: eyob abebe bekele </br>
+Email: eyobabebe28@gmail.com </br>
+GitHub: https://github.com/eyob84 </br>
 LinkedIn: https://linkedin.com/in/eyob-bekele-772a46281/
 
 
