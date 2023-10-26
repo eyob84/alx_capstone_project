@@ -1,20 +1,18 @@
-My Portfolio Website
-Project Overview
+<h1>My Portfolio Website</h1>
+
+<h2>Project Overview</h2>
 Welcome to my portfolio website! This website serves as a showcase of my work, skills, and experiences. It is designed to provide an overview of my capabilities and accomplishments in the field of software engineering.
 
-Features and Functionality
-Project Showcase: Browse through a collection of my projects, including detailed descriptions, images, and links to live demos or source code repositories.
-Resume: Access my resume to learn more about my education, work experience, and qualifications.
+<h2>Features and Functionality</h2>
+Project Showcase: Browse through a collection of my projects, including detailed descriptions, images, and links to live demos or source code repositories.</br>
+Resume: Access my resume to learn more about my education, work experience, and qualifications.</br>
 Contact Information: Find ways to get in touch with me, whether for collaboration, job opportunities, or simply to connect.
-Blog: Explore my blog, where I share insights, tutorials, and industry-related articles.
-This website allows users to learn about my skills, explore my past work, and get in touch for potential opportunities or collaborations.
 
 <h1>Technologies Used</h1>
 
-Frontend: HTML, CSS, JavaScript
-Backend: Python, sql, flask, database
-Version Control: Git, GitHub
-Hosting: GitHub Pages
+<h2>Frontend:</h2> HTML</br> CSS </br>JavaScript
+<h2>Backend:</h2> Python </br> Flask </br> Database
+
 
 
 
