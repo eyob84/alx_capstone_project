@@ -20,6 +20,7 @@ Hosting: GitHub Pages
 
 
 <h1>## Screenshots or demo </h1>
+
 ![Flowchart](https://lucid.app/lucidchart/ca65c284-0af1-474a-8bc5-31db0de22813/edit?viewport_loc=-5%2C382%2C2585%2C1134%2C0_0&invitationId=inv_ee846e2e-39fe-469a-881d-c0282862f0e5)
 
 [Live Demo](https://drive.google.com/file/d/1xiRmX4-Lxw-8CidptAvIEWnqzIsJk6jM/view?usp=sharing)
@@ -30,7 +31,7 @@ Hosting: GitHub Pages
 
 
 
-<h1>Contact Information<h1>
+<h1>Contact Information</h1>
 
 Name: eyob abebe bekele </br>
 Email: eyobabebe28@gmail.com </br>
